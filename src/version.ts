@@ -1,5 +1,8 @@
 export function versionFromString(str: string) {
-  return str.split(".").map(versionFromChar);
+  const unit = str.length / 3;
+  return [0, 1, 2]
+    .map((step) => str.substring(step * unit, (step + 1) * unit))
+    .map(versionFromChar);
 }
 
 function versionFromChar(char: string) {
