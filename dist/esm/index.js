@@ -1,2 +1,2 @@
-export { versionFromString } from "./version";
+export { versionFromString } from "./version.js";
 //# sourceMappingURL=index.js.map

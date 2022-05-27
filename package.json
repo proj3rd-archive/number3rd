@@ -1,6 +1,6 @@
 {
   "name": "number3rd",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Number utilities for 3GPP",
   "module": "./dist/esm/index.js",
   "main": "./dist/cjs/index.js",
