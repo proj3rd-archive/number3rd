@@ -1,7 +1,7 @@
 {
-  "name": "esm-template",
+  "name": "number3rd",
   "version": "0.0.1",
-  "description": "A template to make projects using TS and transpile to CommonJS and ESM.",
+  "description": "Number utilities for 3GPP",
   "module": "./dist/esm/index.js",
   "main": "./dist/cjs/index.js",
   "files": [
@@ -22,19 +22,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sleep-written/esm-template.git"
+    "url": "git+https://github.com/proj3rd/number3rd.git"
   },
   "keywords": [
-    "template",
-    "esm",
-    "ts"
   ],
-  "author": "sleep-written",
+  "author": "Seokseong Jeon",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sleep-written/esm-template/issues"
+    "url": "https://github.com/proj3rd/number3rd/issues"
   },
-  "homepage": "https://github.com/sleep-written/esm-template#readme",
+  "homepage": "https://github.com/proj3rd/number3rd#readme",
   "devDependencies": {
     "@types/node": "^17.0.31",
     "ava": "^4.2.0",
