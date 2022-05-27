@@ -1,0 +1,1 @@
+export { versionFromString } from "./version";

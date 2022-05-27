@@ -1,2 +1,1 @@
-console.clear();
-console.log('Executed sucessfully');
+export { versionFromString } from "./version";
